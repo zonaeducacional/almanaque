@@ -13,8 +13,10 @@ export function registerServiceWorker(): void {
 
   window.addEventListener('load', () => {
     try {
+      const baseUrl = import.meta.env.BASE_URL || '/';
+      const swUrl = `${baseUrl.endsWith('/') ? baseUrl : baseUrl + '/'}sw.js`;
       navigator.serviceWorker
-        .register('/sw.js', { scope: '/' })
+        .register(swUrl, { scope: baseUrl })
         .then((registration) => {
           // Service worker registrado com sucesso
           registration.onupdatefound = () => {

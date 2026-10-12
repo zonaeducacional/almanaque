@@ -5,17 +5,20 @@
 const CACHE_NAME = 'cyber-almanaque-v1';
 
 // Recursos estáticos fundamentais para o shell offline
-const PRECACHE_ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icon.svg',
-  '/icon-192.png',
-  '/icon-512.png',
-  '/icon-maskable.png',
-  '/apple-touch-icon.png',
-  '/pacote-exemplo.json',
-];
+function getPrecacheAssets() {
+  const scope = self.registration ? self.registration.scope : self.location.origin + '/';
+  return [
+    scope,
+    new URL('index.html', scope).href,
+    new URL('manifest.json', scope).href,
+    new URL('icon.svg', scope).href,
+    new URL('icon-192.png', scope).href,
+    new URL('icon-512.png', scope).href,
+    new URL('icon-maskable.png', scope).href,
+    new URL('apple-touch-icon.png', scope).href,
+    new URL('pacote-exemplo.json', scope).href,
+  ];
+}
 
 // Instalação do Service Worker: guarda ativos essenciais em cache
 self.addEventListener('install', (event) => {
@@ -23,7 +26,7 @@ self.addEventListener('install', (event) => {
     caches
       .open(CACHE_NAME)
       .then((cache) => {
-        return cache.addAll(PRECACHE_ASSETS).catch((err) => {
+        return cache.addAll(getPrecacheAssets()).catch((err) => {
           // Em ambientes de desenvolvimento/preview alguns arquivos podem ser dinâmicos
           console.warn('[SW] Aviso ao pré-carregar alguns ativos:', err);
         });
@@ -88,14 +91,15 @@ self.addEventListener('fetch', (event) => {
           return networkResponse;
         })
         .catch(async () => {
+          const scope = self.registration ? self.registration.scope : '/';
           const cached = await caches.match(request);
           if (cached) return cached;
-          const fallback = await caches.match('/index.html');
+          const fallback = (await caches.match(new URL('index.html', scope).href)) || (await caches.match(scope));
           if (fallback) return fallback;
           return new Response(
             '<!doctype html><html lang="pt-BR"><body style="font-family:serif;background:#F8F5EE;color:#242A24;padding:2rem;text-align:center;">' +
             '<h1>Cyber Almanaque</h1><p>Você está offline. O conteúdo salvo anteriormente no seu aparelho continua disponível.</p>' +
-            '<p><a href="/" style="color:#2E5E37;">Recarregar Almanaque</a></p></body></html>',
+            `<p><a href="${scope}" style="color:#2E5E37;">Recarregar Almanaque</a></p></body></html>`,
             { headers: { 'Content-Type': 'text/html; charset=utf-8' } }
           );
         })

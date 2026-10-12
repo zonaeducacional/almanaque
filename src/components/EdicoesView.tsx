@@ -95,8 +95,10 @@ export const EdicoesView: React.FC<EdicoesViewProps> = ({ onBack, onPacotesChang
   // Carregar pacote-exemplo.json diretamente para testes rápidos
   const handleCarregarExemplo = async () => {
     try {
-      const res = await fetch('/pacote-exemplo.json');
-      if (!res.ok) throw new Error('Falha ao buscar /pacote-exemplo.json');
+      const baseUrl = import.meta.env.BASE_URL || '/';
+      const path = `${baseUrl.endsWith('/') ? baseUrl : baseUrl + '/'}pacote-exemplo.json`;
+      const res = await fetch(path);
+      if (!res.ok) throw new Error('Falha ao buscar pacote-exemplo.json');
       const data = await res.json();
       const validacao = validarPacoteJson(data);
       if (!validacao.valido || !validacao.pacote) {
