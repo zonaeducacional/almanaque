@@ -1,0 +1,112 @@
+{
+  "id": "vale-do-ribeira-2026",
+  "nome": "Almanaque do Vale do Ribeira • Edição Escola das Águas",
+  "ano": 2026,
+  "regiao": "Vale do Ribeira, SP (Mata Atlântica & Quilombos)",
+  "versao": "1.0",
+  "autoria": "Coletivo de Professores e Estudantes da Escola Comunitária das Águas",
+  "rotulo_ia": "100% autoria humana comunitária",
+  "descricao": "Edição com saberes das comunidades quilombolas e caiçaras, fitoterapia tradicional e manejo sustentável de palmito juçara.",
+  "itens": [
+    {
+      "id": "vale-dia-1",
+      "tipo": "dia",
+      "titulo": "Dia da Juçara e dos Pássaros Semeadores",
+      "autor": "Professora Clara Quilombola & Alunos do 8º ano",
+      "rotulo_ia": "100% autoria humana comunitária",
+      "dataIso": "2026-10-18",
+      "dados": {
+        "id": "2026-10-18",
+        "dataIso": "2026-10-18",
+        "dataExtenso": "Domingo, 18 de outubro de 2026",
+        "diaDoAno": 291,
+        "totalDiasAno": 365,
+        "estacao": "Primavera no Hemisfério Sul",
+        "placarProgresso": {
+          "titulo": "Colheita comunitária de polpa de juçara supera 25 toneladas sem derrubar uma única palmeira",
+          "numeroDestaque": "+25 toneladas",
+          "descricao": "Cooperativas quilombolas do Vale do Ribeira consolidaram o manejo do fruto da juçara em vez do palmito, mantendo as árvores em pé para alimentar tucanos, jacutingas e dispersores da floresta.",
+          "fonte": "Cooperativa dos Quilombos do Vale do Ribeira (exemplo, verificar antes de publicar)"
+        },
+        "gestoDoDia": {
+          "titulo": "Semear sementes de frutos nativos em beira de córrego",
+          "acao": "Ao comer uma fruta da época, limpe as sementes na água e jogue em terra fofa de beira de cerca ou matinha do bairro. Confie na força da terra.",
+          "tempoEstimado": "5 minutos",
+          "proposito": "Restauração ecológica cotidiana"
+        },
+        "hojeNaCiencia": {
+          "ano": 1988,
+          "titulo": "Reconhecimento dos territórios quilombolas na Constituição Cidadã",
+          "descricao": "O Artigo 68 do ADCT reconheceu a propriedade definitiva das terras ocupadas por remanescentes de quilombos, protegendo séculos de manejo agroflorestal tradicional.",
+          "relevancia": "O saber tradicional indígena e quilombola como ciência aplicada de preservação dos biomas.",
+          "fonte": "Arquivo da Assembleia Nacional Constituinte (exemplo, verificar antes de publicar)"
+        },
+        "leituraDoDia": {
+          "titulo": "O Canto do Rio Ribeira de Iguape",
+          "autor": "Poesia Comunitária Tradicional do Vale",
+          "epocaOuLivro": "Caderno de Versos Caiçaras (1942)",
+          "genero": "Poema",
+          "texto": "O rio desce mansinho entre a serra e o mar,\nTraz semente da mata pro mangue embalar.\nCanoa de um pau só que corta a corrente,\nQuem cuida da terra não fica doente.\n\nOlha a juçara roxa brilhando no cacho,\nA água cristalina cantando no riacho;\nDeixa a palmeira viva pro tucano comer,\nQue o fruto é pra todos e há de render!",
+          "notaEditorial": "Versos de tradição oral recolhidos pela comunidade escolar caiçara."
+        },
+        "palavraOuProverbio": {
+          "tipo": "Palavra",
+          "termo": "Puxirão",
+          "origem": "Tradição cabocla e caiçara do Vale do Ribeira",
+          "significado": "Trabalho cooperativo onde vizinhos se reúnem com viola e comida para roçar, colher ou cobrir uma casa num só dia.",
+          "reflexao": "A alegria do trabalho não está no cansaço, mas na cantoria compartilhada entre vizinhos."
+        }
+      }
+    },
+    {
+      "id": "vale-dia-2",
+      "tipo": "dia",
+      "titulo": "Dia da Pesca Artesanal e Maré Mansa",
+      "autor": "Mestre Ditinho Pescador",
+      "rotulo_ia": "100% autoria humana comunitária",
+      "dataIso": "2026-10-19",
+      "dados": {
+        "id": "2026-10-19",
+        "dataIso": "2026-10-19",
+        "dataExtenso": "Segunda-feira, 19 de outubro de 2026",
+        "diaDoAno": 292,
+        "totalDiasAno": 365,
+        "estacao": "Primavera no Hemisfério Sul",
+        "placarProgresso": {
+          "titulo": "Acordo de pesca comunitária recupera cardumes de robalo em 40% no estuário",
+          "numeroDestaque": "+40% peixes",
+          "descricao": "Pescadores artesanais definiram períodos voluntários de defeso e tamanho mínimo de malha, provando que a gestão comunitária supera a fiscalização burocrática.",
+          "fonte": "Fórum dos Povos Tradicionais do Litoral Sul (exemplo, verificar antes de publicar)"
+        },
+        "gestoDoDia": {
+          "titulo": "Comprar direto de um pequeno produtor ou pescador",
+          "acao": "Prefira comprar peixe, legumes ou ovos de quem você conhece pelo nome e sabe onde colhe. O dinheiro que fica na vizinhança alimenta a autonomia de todos.",
+          "tempoEstimado": "15 minutos",
+          "proposito": "Economia circular e solidária"
+        },
+        "hojeNaCiencia": {
+          "ano": 1999,
+          "titulo": "Criação do Mosaico de Unidades de Conservação do Jacupiranga",
+          "descricao": "Inovador modelo de gestão territorial que compatibilizou parques de proteção integral com áreas de desenvolvimento sustentável para populações tradicionais.",
+          "relevancia": "A quebra do mito de que floresta preservada precisa ser floresta desabitada.",
+          "fonte": "Fundação Florestal de São Paulo (exemplo, verificar antes de publicar)"
+        },
+        "leituraDoDia": {
+          "titulo": "Trovas da Maré Cheia",
+          "autor": "Dona Maria da Ilha",
+          "epocaOuLivro": "Cantares do Marapé (1958)",
+          "genero": "Poema",
+          "texto": "A maré encheu na ponta da praia,\nO vento de sudoeste já vem balançar.\nA tainha pulou no meio da barra,\nÉ hora de a rede no fundo lançar.\n\nO mar não tem dono, o mar é de Deus,\nRespeita a maré que ele cuida dos seus;\nQuem pesca com calma não falta alimento,\nQuem cuida do mangue espanta o tormento.",
+          "notaEditorial": "Memória oral de pescadoras artesanais de Cananéia e Iguape."
+        },
+        "palavraOuProverbio": {
+          "tipo": "Provérbio",
+          "termo": "Maré não espera canoa atrasada.",
+          "origem": "Sabedoria caiçara do estuário lagunar",
+          "significado": "Os ciclos da natureza têm seu tempo próprio; a sabedoria humana consiste em ajustar o remo ao compasso das marés.",
+          "reflexao": "Não adianta tentar forçar a água a correr mais depressa; aprenda a soltar as amarras na hora certa."
+        }
+      }
+    }
+  ]
+}
