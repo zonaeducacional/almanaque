@@ -172,3 +172,22 @@ Durante o desenvolvimento do Cyber Almanaque, foram feitas as seguintes premissa
 2. **Fontes de Domínio Público e Verificação**: Todos os itens das seções (Manual de Sobrevivência, Conversando com Máquinas, Clima e Território, Atenção e Corpo, Direitos e Cidadania, Oficinas) foram marcados de forma transparente com a nota *"exemplo, verificar antes de publicar"*, conforme solicitado no briefing editorial original.
 3. **Cálculos Astronômicos Locais**: Os cálculos solares e lunares não consultam nenhum serviço web de terceiros. Utilizam modelos esféricos e a fórmula de fase senoidal de Conway, calibrada para coordenadas brasileiras com desvio de poucos minutos em relação a efemérides náuticas.
 4. **Sem Rastreadores nem APIs Proprietárias**: O aplicativo não utiliza Google Analytics, cookies de terceiros, pixels de conversão ou chamadas a modelos de linguagem na nuvem. A experiência é estritamente pessoal, íntima e soberana.
+
+---
+
+## 7. Deploy & Produção
+
+* **URL de Produção (GitHub Pages)**: [https://zonaeducacional.github.io/almanaque/](https://zonaeducacional.github.io/almanaque/)
+* **Repositório**: [https://github.com/zonaeducacional/almanaque](https://github.com/zonaeducacional/almanaque)
+
+---
+
+## 8. Changelog / Histórico de Modificações
+
+* **v1.0.0 (2026-10-11)**:
+  - Configuração do `base: '/almanaque/'` no Vite para suporte nativo ao GitHub Pages.
+  - Ajuste de caminhos relativos em `manifest.json`, `index.html` e `registerServiceWorker.ts`.
+  - Service Worker resiliente com detecção dinâmica de escopo (`self.registration.scope`) para funcionamento offline em subdiretórios.
+  - Inclusão do arquivo `.nojekyll` para contornar processamento do Jekyll no GitHub Pages.
+  - Criação do pipeline de CI/CD via GitHub Actions (`.github/workflows/deploy.yml`).
+  - Deploy em produção via branch `gh-pages` e `main`.
