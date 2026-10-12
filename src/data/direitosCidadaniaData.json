@@ -1,0 +1,89 @@
+{
+  "secaoInfo": {
+    "titulo": "Direitos e cidadania",
+    "subtitulo": "Seus direitos fundamentais no consumo, no trabalho e na privacidade explicados com clareza.",
+    "lema": "Conhecer a lei não é para brigar: é para caminhar ereto e viver com dignidade coletiva."
+  },
+  "verbetes": [
+    {
+      "id": "arrependimento-7-dias",
+      "categoria": "Consumidor",
+      "titulo": "Direito de Arrependimento em 7 Dias",
+      "icone": "📦",
+      "oQueE": "Toda compra feita fora da loja física (pela internet, telefone ou catálogo) pode ser cancelada em até 7 dias corridos após a entrega do produto ou contratação do serviço.",
+      "comoFunciona": "Você não precisa justificar o motivo nem pagar frete de devolução. O valor total pago (inclusive o frete inicial) deve ser estornado de imediato.",
+      "oQueFazer": "Envie mensagem por escrito ao vendedor informando: 'Com base no artigo 49 do Código de Defesa do Consumidor, solicito a desistência da compra e a restituição integral do valor.'",
+      "fonte": "Artigo 49 do Código de Defesa do Consumidor (Lei 8.078/90) (exemplo, verificar antes de publicar)"
+    },
+    {
+      "id": "garantia-legal",
+      "categoria": "Consumidor",
+      "titulo": "Garantia Legal Obrigatória (Não Depende da Loja)",
+      "icone": "🛡️",
+      "oQueE": "Todo produto durável (celular, geladeira, calçado, móvel) tem garantia legal obrigatória de 90 dias por lei, mesmo que a loja diga que não dá garantia.",
+      "comoFunciona": "Se o produto apresentar defeito nesse período, a loja ou fabricante tem até 30 dias para consertar. Se não resolver, você pode escolher: receber um produto novo, o dinheiro de volta ou abatimento no preço.",
+      "oQueFazer": "Guarde a nota fiscal ou comprovante de compra e envie notificação por e-mail ou protocolo para registrar a data exata em que o defeito surgiu.",
+      "fonte": "Artigo 26 do Código de Defesa do Consumidor (exemplo, verificar antes de publicar)"
+    },
+    {
+      "id": "desconexao-trabalho",
+      "categoria": "Trabalho",
+      "titulo": "Direito à Desconexão e Intervalos",
+      "icone": "⏳",
+      "oQueE": "O trabalhador não é obrigado a responder mensagens de WhatsApp, e-mails ou chamadas da chefia fora do horário contratual de trabalho.",
+      "comoFunciona": "Horas passadas respondendo mensagens ou resolvendo tarefas fora do expediente podem caracterizar tempo à disposição do empregador, gerando direito a horas extras ou sobreaviso.",
+      "oQueFazer": "Mantenha o celular de trabalho desligado fora da jornada ou configure mensagem automática: 'Mensagens recebidas fora do horário de expediente serão lidas no próximo dia útil às 08h.'",
+      "fonte": "Consolidação das Leis do Trabalho (CLT) e Jurisprudência do TST (exemplo, verificar antes de publicar)"
+    },
+    {
+      "id": "registro-ponto-horas-extras",
+      "categoria": "Trabalho",
+      "titulo": "Registro de Ponto e Pagamento de Horas Extras",
+      "icone": "⏱️",
+      "oQueE": "Toda hora trabalhada além da jornada padrão diária (geralmente 8 horas) deve ser paga com adicional de no mínimo 50% (ou compensada formalmente em banco de horas acordado).",
+      "comoFunciona": "A empresa não pode obrigar o empregado a bater o ponto e continuar trabalhando ('ponto britânico' ou ponto adulterado é nulo perante a Justiça do Trabalho).",
+      "oQueFazer": "Anote em um caderno pessoal suas horas reais de entrada, almoço e saída. Em caso de discrepância no contracheque, converse primeiro com o RH apresentando seu registro.",
+      "fonte": "Artigo 59 da CLT e Súmula 338 do Tribunal Superior do Trabalho (exemplo, verificar antes de publicar)"
+    },
+    {
+      "id": "finalidade-dados-lgpd",
+      "categoria": "Dados Pessoais (LGPD)",
+      "titulo": "Finalidade e Consentimento de Dados",
+      "icone": "🔐",
+      "oQueE": "Nenhuma empresa ou farmácia pode exigir seu CPF ou biometria sem informar com clareza para que finalidade exata usará esse dado.",
+      "comoFunciona": "Condicionar um desconto de remédio à entrega obrigatória do CPF para fins de marketing sem sua autorização explícita é prática abusiva pela Lei Geral de Proteção de Dados.",
+      "oQueFazer": "Você tem o direito de perguntar no balcão: 'Qual é a finalidade exata da coleta do meu CPF para esta compra? Posso comprar sem fornecer o dado?'",
+      "fonte": "Lei Geral de Proteção de Dados (Lei 13.709/18 - LGPD) (exemplo, verificar antes de publicar)"
+    },
+    {
+      "id": "exclusao-cadastro-lgpd",
+      "categoria": "Dados Pessoais (LGPD)",
+      "titulo": "Direito de Exclusão de Cadastro e Revogação",
+      "icone": "🗑️",
+      "oQueE": "Você tem o direito de exigir que empresas apaguem seus dados pessoais de bancos de telemarketing, lojas onde você não compra mais ou aplicativos antigos.",
+      "comoFunciona": "Pela LGPD (artigo 18), o titular dos dados pode solicitar a qualquer momento a confirmação de quais dados a empresa possui e a exclusão dos dados desnecessários ou tratados sem consentimento.",
+      "oQueFazer": "Envie uma solicitação formal ao Encarregado de Dados (DPO) da empresa através do e-mail de privacidade indicado no site oficial deles.",
+      "fonte": "Artigo 18 da Lei Geral de Proteção de Dados (exemplo, verificar antes de publicar)"
+    }
+  ],
+  "modelosDeTexto": [
+    {
+      "id": "modelo-consumidor",
+      "titulo": "Reclamação de Cobrança Indevida / Produto com Defeito",
+      "destinatario": "Para enviar ao SAC da loja ou prestador de serviços",
+      "texto": "À gerência / Serviço de Atendimento ao Cliente da [Nome da Empresa],\n\nEu, [Seu Nome Completo], inscrito(a) no CPF [Seu CPF], venho por meio desta solicitar formalmente a regularização referente ao [Produto ou Serviço], adquirido em [Data da Compra], sob o número de pedido/nota fiscal [Número].\n\nConstatou-se a seguinte irregularidade: [Descrever brevemente o problema: ex. cobrança de valor divergente do contratado / produto entregue com defeito de funcionamento].\n\nCom base nos artigos do Código de Defesa do Consumidor (Lei 8.078/90), solicito o cancelamento imediato da cobrança indevida / a substituição do produto por outro em perfeitas condições no prazo legal de 5 dias úteis, com o devido envio do comprovante por este canal.\n\nAtenciosamente,\n[Seu Nome Completo]\n[Telefone de Contato]\n[E-mail]"
+    },
+    {
+      "id": "modelo-requerimento",
+      "titulo": "Requerimento Simples a Órgão Público / Condomínio / Escola",
+      "destinatario": "Para protocolos em órgãos municipais, escolas ou administração predial",
+      "texto": "Ilustríssimo(a) Senhor(a) [Cargo do Responsável: ex. Secretário Municipal / Síndico / Diretor Escolar],\n\nEu, [Seu Nome Completo], [nacionalidade], [estado civil], portador(a) do RG nº [Seu RG] e CPF nº [Seu CPF], residente e domiciliado(a) na [Seu Endereço Completo],\n\nVem respeitosamente à presença de Vossa Senhoria requerer o que se segue:\n\n[Descrever o pedido com clareza: ex. a poda de árvore com galhos sobre a fiação na rua X / cópia do histórico escolar / providências sobre vazamento na área comum].\n\nO presente pedido fundamenta-se no direito constitucional de petição aos poderes públicos (Artigo 5º, XXXIV da Constituição Federal) e nas normas vigentes de convivência.\n\nNestes termos, pede e espera deferimento.\n\n[Sua Cidade - UF], [Dia] de [Mês] de [Ano].\n\n__________________________________\n[Seu Nome Completo]"
+    },
+    {
+      "id": "modelo-lgpd",
+      "titulo": "Pedido de Acesso e Exclusão de Dados Pessoais (LGPD)",
+      "destinatario": "Para enviar ao e-mail de privacidade / DPO de empresas ou plataformas",
+      "texto": "Ao Encarregado de Proteção de Dados (DPO) da [Nome da Empresa],\n\nEu, [Seu Nome Completo], titular dos dados associados ao e-mail [Seu E-mail] e CPF [Seu CPF], venho por meio desta, nos termos do artigo 18 da Lei Geral de Proteção de Dados (Lei nº 13.709/2018 - LGPD), exercer meus direitos de titular.\n\nVenho requerer:\n1. A confirmação da existência de tratamento e o acesso a todos os meus dados pessoais mantidos por esta instituição;\n2. A revogação imediata de todo consentimento previamente concedido para comunicações publicitárias e cessão a terceiros;\n3. A exclusão definitiva dos meus dados pessoais das bases ativas da instituição, salvo os que devam ser mantidos por estrita obrigação legal.\n\nSolicito resposta formal a este requerimento no prazo de até 15 dias corridos, conforme preconiza o artigo 19, II da LGPD.\n\nAtenciosamente,\n[Seu Nome Completo]\n[E-mail de Contato]"
+    }
+  ]
+}

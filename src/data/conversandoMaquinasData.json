@@ -1,0 +1,157 @@
+{
+  "secaoInfo": {
+    "titulo": "Conversando com máquinas",
+    "subtitulo": "Como usar inteligência artificial com sobriedade, autonomia e discernimento humano.",
+    "lema": "A ferramenta calcula com velocidade; quem julga, sente e responde pelo ato é a pessoa."
+  },
+  "verbetes": [
+    {
+      "id": "o-que-ela-erra",
+      "titulo": "O que ela erra (a ilusão da certeza)",
+      "icone": "🎭",
+      "resumo": "Modelos de linguagem não pensam nem têm intenção: preveem palavras estatisticamente plausíveis e inventam dados com tom calmo e convincente.",
+      "oProblema": "A máquina não avisa quando está em dúvida. Ela inventa citações de livros que nunca existiram, altera datas e calcula multiplicações complexas errado mantendo uma prosa impecável.",
+      "oQueEstaMelhorando": "Técnicas de ancoragem e busca de fontes em tempo real estão reduzindo as invenções mais grosseiras, e modelos recentes começam a sinalizar níveis de incerteza.",
+      "oQueFazer": [
+        "Desconfie de citações exatas de leis, artigos acadêmicos ou números estatísticos sem link direto comprovado.",
+        "Peça sempre: 'Se você não tiver certeza absoluta sobre este dado, diga explicitamente que não sabe'.",
+        "Trate a resposta da IA como o rascunho de um estagiário entusiasmado, nunca como uma enciclopédia definitiva."
+      ],
+      "fonte": "Caderno de Boas Práticas do Berkman Klein Center & UNESCO (exemplo, verificar antes de publicar)",
+      "gestoPratico": {
+        "titulo": "O teste da citação inventada",
+        "acao": "Na próxima vez que a IA citar uma frase de um autor famoso, copie a frase e pesquise entre aspas num buscador. Veja se a frase realmente existe em livros do autor ou se foi costurada pela máquina.",
+        "tempo": "2 minutos"
+      }
+    },
+    {
+      "id": "como-checar",
+      "titulo": "Como checar uma resposta (em 3 passos)",
+      "icone": "🔍",
+      "resumo": "Nenhuma informação crítica deve ser aceita apenas porque soa elegante ou bem pontuada.",
+      "oProblema": "A eloquência da linguagem nos induz ao viés de autoridade. Se o texto parece bem escrito, nosso cérebro tende a assumir que a informação é verdadeira.",
+      "oQueEstaMelhorando": "Sistemas modernos agora incluem links para páginas da web onde a informação foi encontrada, permitindo conferência rápida na fonte primária.",
+      "oQueFazer": [
+        "Faça verificação lateral: abra uma aba separada e confira o dado no site oficial da instituição mencionada.",
+        "Inverta a pergunta: pergunte à máquina 'Quais são os argumentos ou evidências contrárias a essa tese?'.",
+        "Exija o documento de origem: pergunte o ano da publicação, o órgão emissor ou o código da lei e confira no Diário Oficial."
+      ],
+      "fonte": "Laboratório de Checagem Digital e Alfabetização Informacional (exemplo, verificar antes de publicar)",
+      "gestoPratico": {
+        "titulo": "Checagem de um número do dia a dia",
+        "acao": "Quando a IA lhe der uma estatística sobre o Brasil, consulte o portal do IBGE ou do IPEA para ver a metodologia original.",
+        "tempo": "5 minutos"
+      }
+    },
+    {
+      "id": "o-que-nao-delegar",
+      "titulo": "O que não delegar à máquina",
+      "icone": "❤️",
+      "resumo": "A inteligência artificial pode resumir reuniões e organizar listas, mas não deve terceirizar seu afeto, sua ética ou sua responsabilidade.",
+      "oProblema": "Delegar mensagens de pêsames, pedidos de desculpas sinceros ou decisões sobre demissões e avaliações de colegas esvazia o calor e a integridade das relações humanas.",
+      "oQueEstaMelhorando": "Cresce a valorização da escrita artesanal, da voz humana autêntica e de políticas éticas em escolas e empresas que exigem transparência.",
+      "oQueFazer": [
+        "Escreva você mesmo tudo aquilo em que seu coração ou sua assinatura moral estiverem em jogo.",
+        "Não deixe a IA decidir por você em dilemas de consciência: ela não carrega o peso das consequências.",
+        "Use a máquina para limpar tarefas repetitivas (reformatar tabelas, checar concordância) para que lhe sobre tempo de estar presente com gente."
+      ],
+      "fonte": "Manifesto da Ética da Inteligência Artificial de Montreal (exemplo, verificar antes de publicar)",
+      "gestoPratico": {
+        "titulo": "Mensagem escrita à mão ou de viva voz",
+        "acao": "Escreva hoje um bilhete curto ou mande um áudio carinhoso para um amigo com suas próprias palavras imperfeitas e cheias de vida.",
+        "tempo": "3 minutos"
+      }
+    },
+    {
+      "id": "privacidade-dados",
+      "titulo": "Privacidade: o que nunca colar na tela",
+      "icone": "🔒",
+      "resumo": "Tudo que você digita em caixas de chat gratuitas pode ser arquivado, lido por revisores humanos e usado para treinar versões futuras do modelo.",
+      "oProblema": "Muitas pessoas colam exames de saúde completos com CPF, contratos comerciais confidenciais ou desabafos íntimos sem perceber que esses dados saíram do seu controle.",
+      "oQueEstaMelhorando": "Aparecimento de ferramentas que processam linguagem localmente no próprio aparelho celular sem enviar nada para servidores externos.",
+      "oQueFazer": [
+        "Regra de ouro: se você não colocaria a informação num mural público do bairro, não cole no chat da IA.",
+        "Anonimize textos: substitua nomes reais por 'Cliente A', remova CPFs, endereços, placas de carro e valores bancários antes de pedir uma revisão de texto.",
+        "Desative o histórico de treinamento nas configurações do aplicativo de IA sempre que a opção existir."
+      ],
+      "fonte": "Autoridade Nacional de Proteção de Dados (ANPD) e EFF (exemplo, verificar antes de publicar)",
+      "gestoPratico": {
+        "titulo": "Varredura de privacidade",
+        "acao": "Abra as configurações do seu aplicativo de IA preferido e desmarque a opção 'Compartilhar conversas para melhoria de modelos'.",
+        "tempo": "1 minuto"
+      }
+    },
+    {
+      "id": "como-pedir-melhor",
+      "titulo": "Como pedir melhor (prompts lúcidos)",
+      "icone": "🧭",
+      "resumo": "Você não precisa de comandos misteriosos ou 'fórmulas mágicas': clareza, contexto e limites bem definidos bastam para obter respostas úteis.",
+      "oProblema": "Pedir coisas vagas como 'Me dê ideias de trabalho' gera clichês genéricos e prolixos que fazem o usuário perder tempo.",
+      "oQueEstaMelhorando": "Os modelos compreendem linguagem natural coloquial muito melhor, dispensando termos em inglês ou jargões de programação.",
+      "oQueFazer": [
+        "Diga para quem é o texto: 'Explique para um jovem de 16 anos' ou 'Resuma em três tópicos para quem tem 2 minutos'.",
+        "Imponha um limite de extensão: 'Escreva em no máximo 150 palavras, sem enrolação'.",
+        "Peça passo a passo: em vez de pedir o projeto inteiro de uma vez, peça a estrutura primeiro e discuta cada etapa."
+      ],
+      "fonte": "Guia de Pedagogia Digital da Universidade de Helsinque (exemplo, verificar antes de publicar)",
+      "gestoPratico": {
+        "titulo": "O pedido em três linhas",
+        "acao": "No próximo comando, use apenas 3 linhas: [Quem eu sou] + [O que preciso fazer] + [O tamanho exato da resposta esperada].",
+        "tempo": "2 minutos"
+      }
+    },
+    {
+      "id": "quando-procurar-uma-pessoa",
+      "titulo": "Quando procurar uma pessoa (os limites da tela)",
+      "icone": "🤝",
+      "resumo": "A máquina simula simpatia, mas não sente compaixão; ela cruza sintomas, mas não encosta as mãos para ouvir a respiração de quem sofre.",
+      "oProblema": "Usar IA como terapeuta exclusivo, médico de emergência ou advogado substituto pode atrasar diagnósticos urgentes e isolar quem precisa de contato humano.",
+      "oQueEstaMelhorando": "Comunidades médicas e de apoio psicológico estão criando protocolos claros para usar IA apenas como suporte prévio à consulta presencial.",
+      "oQueFazer": [
+        "Sintomas físicos e dores: use a IA apenas para entender termos do exame, mas marque a consulta com o médico ou vá ao posto de saúde.",
+        "Angústia profunda ou crise emocional: ligue para pessoas de confiança ou para serviços humanos gratuitos como o CVV (Ligue 188).",
+        "Contratos e processos judiciais: consulte um advogado ou defensor público antes de assinar qualquer documento importante."
+      ],
+      "fonte": "Conselho Federal de Medicina e Sociedade Brasileira de Psicologia (exemplo, verificar antes de publicar)",
+      "gestoPratico": {
+        "titulo": "A ligação que substitui a tela",
+        "acao": "Se você estiver ruminando uma dúvida pessoal ou ansiedade com a máquina há mais de 20 minutos, feche a aba e ligue para alguém querido.",
+        "tempo": "10 minutos"
+      }
+    }
+  ],
+  "exercicio": {
+    "id": "exercicio-santos-dumont",
+    "titulo": "Mini-exercício: Onde está o erro escondido?",
+    "contexto": "Um usuário pediu à IA um resumo sobre o inventor brasileiro Alberto Santos-Dumont e o histórico voo do 14-Bis em Paris.",
+    "perguntaDoUsuario": "Me dê um resumo rápido sobre a conquista de Santos-Dumont em Bagatelle.",
+    "respostaDaIA": "Em 23 de outubro de 1906, no Campo de Bagatelle em Paris, Alberto Santos-Dumont realizou o primeiro voo público homologado da história com o 14-Bis. A aeronave percorreu cerca de 60 metros a três metros de altura diante da comissão do Aeroclube da França. Por essa conquista, Dumont recebeu o prestigiado Prêmio Nobel da Paz de 1907 e financiou a construção de escolas de aviação na América Latina.",
+    "opcoesDeErro": [
+      {
+        "id": "opcao-a",
+        "trechoOuItem": "A data do voo (23 de outubro de 1906)",
+        "ehOErroCorreto": false,
+        "explicacao": "A data está perfeitamente correta! O voo do 14-Bis em Bagatelle ocorreu exatamente no dia 23 de outubro de 1906."
+      },
+      {
+        "id": "opcao-b",
+        "trechoOuItem": "A distância percorrida (cerca de 60 metros)",
+        "ehOErroCorreto": false,
+        "explicacao": "A distância está correta: o 14-Bis percorreu aproximadamente 60 metros na primeira homologação do prêmio Archdeacon."
+      },
+      {
+        "id": "opcao-c",
+        "trechoOuItem": "O Prêmio Nobel da Paz de 1907",
+        "ehOErroCorreto": true,
+        "explicacao": "Exatamente! Santos-Dumont ganhou o Prêmio Deutsch-Archdeacon pelo voo, NUNCA o Prêmio Nobel da Paz. A IA inventou essa honraria com tom formal e seguro de si."
+      },
+      {
+        "id": "opcao-d",
+        "trechoOuItem": "A comissão do Aeroclube da França",
+        "ehOErroCorreto": false,
+        "explicacao": "A comissão do Aéro-Club de France realmente estava presente e foi quem cronometrou e homologou oficialmente o voo."
+      }
+    ],
+    "licaoFinal": "Note como o erro ('Prêmio Nobel da Paz de 1907') foi inserido com naturalidade no meio de três dados verdadeiros. É exatamente assim que as alucinações mais perigosas de IA acontecem: vestidas de elegância e autoridade."
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "secoes": [
+    {
+      "id": "manual-digital",
+      "titulo": "Manual de sobrevivência digital",
+      "descricao": "Guia prático e sereno para proteger sua atenção, seu bolso e sua família de golpes e armadilhas virtuais.",
+      "icone": "🛡️",
+      "disponivel": true,
+      "etiqueta": "Disponível"
+    },
+    {
+      "id": "conversando-maquinas",
+      "titulo": "Conversando com máquinas",
+      "descricao": "Como usar inteligência artificial com critério: o que ela erra, o que não delegar e como checar com autonomia.",
+      "icone": "🤖",
+      "disponivel": true,
+      "etiqueta": "Disponível"
+    },
+    {
+      "id": "clima-territorio",
+      "titulo": "Clima e território",
+      "descricao": "Calendário vivo de adaptação por estação (seca, chuva, calor extremo) e manejo consciente de água por região.",
+      "icone": "🌦️",
+      "disponivel": true,
+      "etiqueta": "Disponível"
+    },
+    {
+      "id": "atencao-corpo",
+      "titulo": "Atenção e corpo",
+      "descricao": "Pausas guiadas de 1 a 3 minutos (respiração, alongamento, horizonte), higiene do sono e o convite ao sábado sem tela.",
+      "icone": "🧘",
+      "disponivel": true,
+      "etiqueta": "Disponível"
+    },
+    {
+      "id": "direitos-cidadania",
+      "titulo": "Direitos e cidadania",
+      "descricao": "Direitos essenciais no consumo, trabalho e dados pessoais (LGPD), com 3 modelos de texto prontos para copiar.",
+      "icone": "⚖️",
+      "disponivel": true,
+      "etiqueta": "Disponível"
+    },
+    {
+      "id": "oficinas",
+      "titulo": "Oficinas",
+      "descricao": "5 projetos práticos para fazer em casa: horta em garrafa, conserto elétrico, rádio caseiro, código offline e compostagem.",
+      "icone": "🛠️",
+      "disponivel": true,
+      "etiqueta": "Disponível"
+    },
+    {
+      "id": "banco-saberes",
+      "titulo": "Banco de saberes",
+      "descricao": "Cadastre e consulte ofícios, receitas, causos e remédios de quintal ensinados por gerações. Salvo localmente.",
+      "icone": "🌾",
+      "disponivel": true,
+      "etiqueta": "Colaborativo"
+    },
+    {
+      "id": "laboratorio-ideias",
+      "titulo": "Laboratório de ideias",
+      "descricao": "Mapeie desafios comunitários e proponha soluções coletivas para seu bairro com status de acompanhamento.",
+      "icone": "💡",
+      "disponivel": true,
+      "etiqueta": "Colaborativo"
+    }
+  ],
+  "verbetes": [
+    {
+      "id": "pix-falso-parente",
+      "titulo": "Golpe de PIX e falso parente",
+      "icone": "💬",
+      "resumo": "Uma mensagem no WhatsApp com foto de filho, sobrinho ou amigo dizendo que trocou de número e precisa de dinheiro urgente.",
+      "comoReconhecer": [
+        "Número desconhecido usando a foto de perfil de alguém próximo.",
+        "Mensagem com tom de urgência extrema: 'Meu celular quebrou, anota meu número novo' ou 'Preciso pagar uma conta agora e meu banco travou'.",
+        "A chave PIX solicitada está no nome de um terceiro desconhecido, nunca do próprio parente."
+      ],
+      "oQueFazer": [
+        "Não transfira nenhum valor imediatamente.",
+        "Ligue para o número antigo do parente (ligação de voz normal) para confirmar.",
+        "Se não atender, faça uma pergunta que só a pessoa real saberia responder (ex: 'Qual o nome do nosso cachorro da infância?').",
+        "Avise outros familiares para ninguém cair na mesma armadilha."
+      ],
+      "dicaDeOuro": "A pressa é a ferramenta número um do golpista. Respire fundo e faça uma ligação de voz antes de qualquer envio.",
+      "fonte": "Cartilha de Segurança do Banco Central e CERT.br (exemplo, verificar antes de publicar)"
+    },
+    {
+      "id": "phishing-email-sms",
+      "titulo": "Phishing por e-mail e SMS",
+      "icone": "🎣",
+      "resumo": "Mensagens fingindo ser de bancos, Correios, Receita Federal ou lojas famosas, com links para roubar seus dados.",
+      "comoReconhecer": [
+        "Avisos alarmantes: 'Sua conta foi bloqueada', 'Sua encomenda foi retida na alfândega' ou 'Você tem pontos a expirar hoje'.",
+        "Links com endereços estranhos cheios de letras aleatórias ou com pequenos erros (ex: 'banc0-brasil.xyz' ou 'correios-taxa.net').",
+        "SMS enviados por números de celular comuns pedindo para você clicar em links encurtados."
+      ],
+      "oQueFazer": [
+        "Nunca clique em links recebidos por mensagem de texto ou e-mail inesperado.",
+        "Se tiver dúvida sobre uma encomenda ou pendência bancária, abra o aplicativo oficial do banco ou o site dos Correios digitando o endereço diretamente no navegador.",
+        "Bancos e órgãos públicos não mandam links por SMS para desbloquear senhas."
+      ],
+      "dicaDeOuro": "Em vez de clicar no link da mensagem, vá por conta própria até o aplicativo ou site oficial.",
+      "fonte": "Centro de Estudos, Resposta e Tratamento de Incidentes de Segurança no Brasil (exemplo, verificar antes de publicar)"
+    },
+    {
+      "id": "deepfake-audio-clonado",
+      "titulo": "Deepfake e áudio clonado",
+      "icone": "🎙️",
+      "resumo": "Voz gerada por inteligência artificial que soa idêntica à de um familiar pedindo ajuda ou dinheiro.",
+      "comoReconhecer": [
+        "Mensagem de voz curta, às vezes com som ambiente abafado ou ruído de trânsito artificial.",
+        "A voz se recusa a manter uma conversa fluida em tempo real ('Não posso falar agora, só mandar áudio rápido').",
+        "História dramática: acidente de carro, sequestro relâmpago, blitz ou emergência hospitalar."
+      ],
+      "oQueFazer": [
+        "Combine previamente uma 'palavra-chave secreta' com sua família para situações reais de emergência.",
+        "Faça uma chamada de vídeo imediatamente. A inteligência artificial ainda tem grande dificuldade em simular chamadas de vídeo com movimentos naturais.",
+        "Tente ligar para o parceiro, colega de trabalho ou escola onde a pessoa deveria estar naquele horário."
+      ],
+      "dicaDeOuro": "Defina hoje mesmo com seus pais ou filhos uma palavra de segurança simples que só vocês conhecem.",
+      "fonte": "Guia de Conscientização sobre IA da Anatel e Procon (exemplo, verificar antes de publicar)"
+    },
+    {
+      "id": "noticia-falsa",
+      "titulo": "Notícia falsa (como checar em 3 passos)",
+      "icone": "🔍",
+      "resumo": "Boatos alarmantes, curas milagrosas e escândalos inventados para espalhar medo e desinformação na família.",
+      "comoReconhecer": [
+        "Textos com títulos sensacionalistas, letras maiúsculas e excesso de pontos de exclamação.",
+        "Frases como: 'A grande mídia não quer que você saiba', 'Repasse antes que apaguem' ou 'Urgente!'.",
+        "Ausência de data, local exato ou nome de fontes oficiais."
+      ],
+      "oQueFazer": [
+        "Passo 1: Copie o título da notícia e cole no buscador seguido da palavra 'boato' ou 'fato' (agências de checagem como Lupa, Aos Fatos e G1 Fato ou Fake já costumam ter verificado).",
+        "Passo 2: Verifique se veículos de imprensa conhecidos de diferentes linhas editoriais publicaram o mesmo acontecimento.",
+        "Passo 3: Se não encontrou comprovação, não passe adiante. Interromper a corrente de boatos é um ato de saúde pública e afeto."
+      ],
+      "dicaDeOuro": "A dúvida é a melhor conselheira. Na incerteza, o silêncio protege mais do que o compartilhamento impulsivo.",
+      "fonte": "Rede Internacional de Checagem de Fatos (IFCN) (exemplo, verificar antes de publicar)"
+    },
+    {
+      "id": "senhas-duas-etapas",
+      "titulo": "Senhas e verificação em duas etapas",
+      "icone": "🔑",
+      "resumo": "Como criar chaves digitais fáceis de lembrar e ativar o cadeado duplo que impede que invasores roubem seu WhatsApp e redes.",
+      "comoReconhecer": [
+        "Usar a mesma senha em vários sites (se um vazar, todos caem).",
+        "Senhas com datas de aniversário, nomes de filhos ou sequências óbvias como '123456'.",
+        "Receber notificações do WhatsApp com um código de 6 dígitos que você não pediu."
+      ],
+      "oQueFazer": [
+        "Ative a verificação em duas etapas em todos os seus aplicativos (no WhatsApp: Configurações > Conta > Confirmação em duas etapas).",
+        "Use 'frases-senha' em vez de palavras isoladas: por exemplo, 'CafeComPaoDeQueijo2026!' é muito mais fácil de lembrar e leva séculos para computadores decifrarem.",
+        "Nunca, em hipótese alguma, informe um código SMS de 6 dígitos para ninguém que ligar para você."
+      ],
+      "dicaDeOuro": "O código de 6 dígitos que chega por SMS é pessoal como sua escova de dentes. Nunca passe para terceiros.",
+      "fonte": "Cartilha de Segurança para Internet do NIC.br (exemplo, verificar antes de publicar)"
+    },
+    {
+      "id": "falso-suporte",
+      "titulo": "Golpe do falso suporte",
+      "icone": "📞",
+      "resumo": "Uma ligação ou mensagem de alguém se dizendo do suporte técnico do banco ou da operadora pedindo para você instalar um aplicativo.",
+      "comoReconhecer": [
+        "O interlocutor é educado e calmo, diz que detectou uma compra suspeita de alto valor e quer 'ajudar a cancelar'.",
+        "Pede para você instalar um aplicativo chamado AnyDesk, TeamViewer ou 'Módulo de Segurança'.",
+        "Pede para você transferir o dinheiro para uma 'conta segura do próprio banco' enquanto o sistema resolve."
+      ],
+      "oQueFazer": [
+        "Desligue a chamada imediatamente na cara do golpista sem medo de parecer indelicado.",
+        "Bancos nunca pedem para clientes instalarem aplicativos de acesso remoto nem pedem transferências para 'contas transitórias'.",
+        "Ligue você mesmo para o número do verso do seu cartão bancário (usando de preferência outro telefone, pois golpistas podem reter a linha fixa aberta)."
+      ],
+      "dicaDeOuro": "Instituições financeiras nunca pedem para você transferir dinheiro para se proteger de uma fraude. Desligue.",
+      "fonte": "Federação Brasileira de Bancos (Febraban) (exemplo, verificar antes de publicar)"
+    }
+  ],
+  "treino": [
+    {
+      "id": 1,
+      "remetente": "Mãe (Número Desconhecido)",
+      "canal": "WhatsApp",
+      "mensagem": "Oi meu filho, bom dia! Troquei de celular e meu WhatsApp antigo travou. Salva esse número provisório aí. Você consegue me fazer um PIX de R$ 380 agora pra farmácia? Mais tarde quando o pai chegar eu te devolvo.",
+      "tipoCorreto": "golpe",
+      "motivo": "Golpe clássico do falso parente com número novo. A mensagem usa afeto e urgência para induzir uma transferência antes que a vítima confira com a pessoa real.",
+      "sinaisDeAlerta": [
+        "Número novo dizendo que o antigo quebrou",
+        "Pedido de PIX urgente no primeiro contato",
+        "Chave solicitada certamente estará em nome de um desconhecido"
+      ]
+    },
+    {
+      "id": 2,
+      "remetente": "Correios (SMS)",
+      "canal": "SMS",
+      "mensagem": "CORREIOS: Sua encomenda BR982341029 está retida na fiscalização aduaneira devido a pendências de taxa. Evite a devolução acessando: http://correios-taxa-libera.xyz/pagamento",
+      "tipoCorreto": "golpe",
+      "motivo": "Phishing por SMS. Os Correios nunca usam domínios como '.xyz' e não exigem pagamento emergencial por link encurtado em SMS.",
+      "sinaisDeAlerta": [
+        "Link com terminação suspeita (.xyz em vez de correios.com.br)",
+        "Ameaça de devolução imediata para gerar ansiedade",
+        "Mensagem genérica enviada por número de celular comum"
+      ]
+    },
+    {
+      "id": 3,
+      "remetente": "Banco (Notificação Oficial no App)",
+      "canal": "SMS",
+      "mensagem": "Compra aprovada de R$ 42,90 em PADARIA CENTRAL no seu cartão final 4812 em 11/10/2026 às 08:14. Caso não reconheça, acesse o menu de cartões no seu aplicativo oficial.",
+      "tipoCorreto": "confiavel",
+      "motivo": "Mensagem informativa legítima. Note que ela NÃO contém nenhum link para você clicar, não pede senhas e orienta você a abrir por conta própria o aplicativo oficial.",
+      "sinaisDeAlerta": [
+        "Sem links clicáveis suspeitos",
+        "Dados específicos (valor, local, 4 últimos dígitos do cartão)",
+        "Orienta a buscar o canal oficial por iniciativa própria"
+      ]
+    },
+    {
+      "id": 4,
+      "remetente": "Central de Segurança Bancária",
+      "canal": "Ligação",
+      "mensagem": "Olá, sou da Central Anti-Fraude. Identificamos uma tentativa de compra no valor de R$ 2.400 em seu nome em São Paulo. Para bloquear o débito e limpar seu cadastro, instale o aplicativo de suporte que enviei por mensagem e digite sua senha de 4 dígitos.",
+      "tipoCorreto": "golpe",
+      "motivo": "Golpe do falso suporte e acesso remoto. Bancos nunca pedem para clientes instalarem aplicativos de terceiros nem solicitam senhas pessoais por telefone.",
+      "sinaisDeAlerta": [
+        "Pedido de instalação de aplicativo estranho no celular",
+        "Solicitação de digitação de senha na chamada",
+        "Sensação forçada de urgência com valor alto"
+      ]
+    },
+    {
+      "id": 5,
+      "remetente": "Biblioteca Comunitária / Grupo do Bairro",
+      "canal": "WhatsApp",
+      "mensagem": "Bom dia a todos! Passando para lembrar que neste sábado, dia 17, teremos a troca de mudas e livros na praça central das 9h às 12h. Entrada livre e quem puder pode trazer sementes ou livros infantis para doar.",
+      "tipoCorreto": "confiavel",
+      "motivo": "Comunicação comunitária genuína. Não há pedidos de dados pessoais, não há links de cobrança, nem pressa forçada.",
+      "sinaisDeAlerta": [
+        "Evento público e presencial com local e horário claros",
+        "Sem pedidos de dinheiro, PIX ou senhas",
+        "Tom comunitário transparente e sereno"
+      ]
+    }
+  ]
+}

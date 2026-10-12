@@ -1,0 +1,147 @@
+{
+  "secaoInfo": {
+    "titulo": "Oficinas",
+    "subtitulo": "Projetos práticos para fazer com as mãos: consertar, cultivar, montar e compreender a matéria do mundo.",
+    "lema": "Fazer coisas por conta própria não é apenas economia: é autonomia e intimidade com o mundo físico."
+  },
+  "projetos": [
+    {
+      "id": "horta-garrafa",
+      "titulo": "Horta Auto-irrigável em Garrafa PET",
+      "categoria": "Cultivo",
+      "icone": "🌱",
+      "descricao": "Como transformar uma garrafa plástica de refrigerante em um vaso com irrigação automática por capilaridade para temperos frescos.",
+      "tempoEstimado": "30 minutos",
+      "dificuldade": "Fácil",
+      "materiais": [
+        "1 garrafa PET de 2 litros limpa",
+        "Tesoura ou estilete com ponta",
+        "1 pedaço de barbante de algodão grosso ou tira de camiseta velha (cerca de 25 cm)",
+        "Terra adubada ou composto orgânico",
+        "Sementes ou mudas de temperos (manjericão, salsinha, cebolinha ou hortelã)"
+      ],
+      "passos": [
+        "Corte a garrafa PET ao meio, a cerca de 12 cm abaixo do bocal.",
+        "Faça um pequeno furo na tampinha da garrafa (usando um prego aquecido ou ponta de tesoura com cuidado).",
+        "Passe o barbante de algodão pelo furo da tampa, deixando um nó na parte interna para não escorregar, com 10 cm sobrando para cada lado.",
+        "Rosqueie a tampa e encaixe a parte superior de ponta-cabeça (como um funil) dentro da base inferior da garrafa.",
+        "Encha a parte de cima com terra, esticando o barbante no meio da terra até quase a superfície.",
+        "Plante a muda ou semeie as sementes e regue bem a terra pela primeira vez.",
+        "Coloque cerca de 3 dedos de água na base inferior. O barbante de algodão puxará a água aos poucos para a raiz da planta conforme ela precisar."
+      ],
+      "dicaMestre": "Troque a água da base a cada 5 dias ou mantenha o encaixe vedado para que mosquitos não consigam botar ovos.",
+      "fonte": "Cartilha de Agroecologia Urbana e Reciclagem da Embrapa Hortaliças (exemplo, verificar antes de publicar)"
+    },
+    {
+      "id": "conserto-basico-tomada",
+      "titulo": "Conserto Básico: Troca de Plugue de Tomada",
+      "categoria": "Reparos",
+      "icone": "🔌",
+      "descricao": "Como substituir um plugue quebrado ou com fio partido em um abajur, ventilador ou extensão sem precisar comprar um aparelho novo.",
+      "tempoEstimado": "20 minutos",
+      "dificuldade": "Fácil a Média",
+      "materiais": [
+        "1 plugue macho novo padrão brasileiro (3 pinos ou 2 pinos)",
+        "Chave de fenda ou chave phillips pequena",
+        "Alicate de corte ou tesoura resistente",
+        "Estilete ou faca pequena para desencapar fios",
+        "Aparelho OBRIGATORIAMENTE desligado da tomada"
+      ],
+      "passos": [
+        "Certifique-se de que o aparelho está TOTALMENTE fora da tomada antes de qualquer manuseio.",
+        "Corte a ponta do fio danificado logo acima do ponto quebrado usando o alicate.",
+        "Com a lâmina do estilete bem deitada, descasque cerca de 3 cm da capa externa plástica do cabo, expondo os dois fios coloridos internos (fase e neutro).",
+        "Desencape cerca de 8 mm da ponta de cobre de cada fio e torça os filamentos de cobre com os dedos para ficarem firmes.",
+        "Abra o novo plugue soltando o parafuso central.",
+        "Afrouxe os parafusinhos dos pinos metálicos, insira cada ponta de cobre desencapada no seu respectivo borne e aperte bem o parafuso para prender o fio.",
+        "Se o aparelho tiver fio terra (verde ou amarelo), ele vai SEMPRE no pino central. Os outros dois fios vão nos pinos laterais.",
+        "Feche a carcaça plástica do plugue e aperte o parafuso de travamento externo para que o cabo não escape ao ser puxado."
+      ],
+      "dicaMestre": "Nunca puxe o aparelho da tomada pelo fio; puxe sempre segurando pelo corpo plástico do plugue.",
+      "fonte": "Guia de Pequenos Reparos Domésticos e Segurança Elétrica do Senai (exemplo, verificar antes de publicar)"
+    },
+    {
+      "id": "radio-caseiro",
+      "titulo": "Rádio de Cristal Caseiro (Sem Bateria)",
+      "categoria": "Eletrônica",
+      "icone": "📻",
+      "descricao": "Como construir um receptor de ondas médias (rádio AM) que funciona puramente com a energia eletromagnética das próprias ondas de rádio do ar, sem usar pilhas.",
+      "tempoEstimado": "1 hora",
+      "dificuldade": "Média",
+      "materiais": [
+        "1 rolo de papelão (tubo de papel higiênico ou papel-toalha)",
+        "Cerca de 15 metros de fio de cobre esmaltado fino (fio AWG 28 ou 30)",
+        "1 diodo de germânio (modelo 1N34A ou equivalente) ou diodo Schottky",
+        "1 fone de ouvido de cristal piezoelétrico (ou caixa de som de computador com amplificador ligado)",
+        "1 pedaço de lixa fina",
+        "Antena: 1 fio longo esticado de 5 a 10 metros preso alto (na janela ou árvore)",
+        "Fio terra: preso em uma torneira de metal ou barra metálica fincada no chão"
+      ],
+      "passos": [
+        "Enrole o fio de cobre esmaltado bem juntinho ao redor do tubo de papelão, dando cerca de 80 a 100 voltas apertadas, sem sobrepor os fios. Isso é a sua bobina de sintonia.",
+        "Com a lixa fina, raspe o esmalte das duas pontas do fio para deixar o cobre brilhante e condutor.",
+        "Raspe também uma linha reta de esmalte ao longo do corpo da bobina para criar um contato deslizante (onde você vai sintonizar as estações).",
+        "Conecte a antena longa em uma das pontas raspadas da bobina.",
+        "Conecte o fio terra na outra ponta da bobina.",
+        "Ligue uma perna do diodo de germânio no mesmo ponto onde a antena se conecta na bobina.",
+        "Ligue a outra perna do diodo a um dos terminais do fone de ouvido piezoelétrico.",
+        "O outro terminal do fone deve ser conectado ao fio terra.",
+        "Coloque o fone no ouvido e deslize suavemente um clip de metal raspado pela bobina até ouvir vozes e músicas sendo transmitidas pelo ar!"
+      ],
+      "dicaMestre": "O diodo de germânio precisa de uma voltagem minúscula (apenas 0,2V) para conduzir, por isso consegue captar o sinal sem bateria.",
+      "fonte": "Manual de Experimentos Científicos e Radiocomunicação Amadora da LABRE (exemplo, verificar antes de publicar)"
+    },
+    {
+      "id": "intro-programacao",
+      "titulo": "Sua Primeira Página Web Offline",
+      "categoria": "Computação",
+      "icone": "💻",
+      "descricao": "Como escrever seu primeiro arquivo de código em HTML e CSS usando apenas o bloco de notas do computador, sem precisar de internet nem instalar nada.",
+      "tempoEstimado": "25 minutos",
+      "dificuldade": "Fácil",
+      "materiais": [
+        "Qualquer computador comum (Windows, Mac ou Linux)",
+        "Programa Bloco de Notas (Notepad, TextEdit ou Gedit)",
+        "Qualquer navegador de internet já instalado (Chrome, Firefox, Safari ou Edge)"
+      ],
+      "passos": [
+        "Abra o programa Bloco de Notas no seu computador.",
+        "Digite as seguintes linhas exatas:\n<!DOCTYPE html>\n<html>\n<head>\n  <meta charset='utf-8'>\n  <title>Meu Primeiro Livro</title>\n  <style>\n    body { background-color: #F8F5EE; color: #242A24; font-family: serif; padding: 40px; }\n    h1 { color: #2D5A27; }\n  </style>\n</head>\n<body>\n  <h1>Olá, mundo real!</h1>\n  <p>Esta página foi feita por mim no meu próprio aparelho, sem precisar de servidores externos.</p>\n</body>\n</html>",
+        "No Bloco de Notas, clique em 'Arquivo' > 'Salvar como...'.",
+        "Dê o nome de 'meu-almanaque.html' (é fundamental colocar a extensão .html no final).",
+        "Selecione 'Todos os arquivos' no tipo de arquivo e clique em Salvar na pasta Documentos.",
+        "Vá até a pasta onde salvou e dê dois cliques no arquivo 'meu-almanaque.html'.",
+        "Seu navegador se abrirá mostrando a página que você acabou de programar, funcionando 100% offline!"
+      ],
+      "dicaMestre": "A internet inteira é feita desses mesmos blocos fundamentais de texto plano que seu navegador interpreta.",
+      "fonte": "Fundação Mozilla e Curso Aberto de Alfabetização Digital (exemplo, verificar antes de publicar)"
+    },
+    {
+      "id": "composteira-baldes",
+      "titulo": "Composteira de Baldes para Cozinha",
+      "categoria": "Solo e Vida",
+      "icone": "🪱",
+      "descricao": "Como montar um sistema de compostagem doméstico usando 3 baldes plásticos para transformar cascas de frutas e pó de café em terra preta fértil.",
+      "tempoEstimado": "45 minutos",
+      "dificuldade": "Fácil a Média",
+      "materiais": [
+        "3 baldes plásticos de 15 a 20 litros (com tampa) comumente descartados por padarias ou lanchonetes",
+        "Furadeira ou ferro de solda / prego quente para furar plástico",
+        "1 torneirinha de filtro de barro (opcional para drenar biofertilizante líquido)",
+        "Matéria seca: serragem limpa, folhas secas trituradas ou papelão picado sem tinta",
+        "Resíduos orgânicos crus da cozinha (cascas de frutas, legumes, pó de café, cascas de ovos)"
+      ],
+      "passos": [
+        "Empilhe os 3 baldes verticalmente: Balde 1 (em cima), Balde 2 (no meio) e Balde 3 (embaixo de tudo).",
+        "No Balde 3 (o de baixo): instale a torneirinha a 3 cm do fundo para colher o chorume líquido orgânico (adubo foliar potente). Não fure o fundo deste balde.",
+        "Nos Baldes 1 e 2: faça vários furinhos pequenos de 3 mm no fundo para o líquido escorrer para o balde de baixo.",
+        "Nas tampas dos baldes 2 e 3: recorte um círculo grande para que os baldes de cima fiquem encaixados, mas com fundo em contato com os furos.",
+        "Na tampa do Balde 1 (o do topo): faça pequenos furinhos minúsculos nas laterais superiores cobertos com fita microporosa para respirar ar sem entrar mosquitinhos.",
+        "Como usar no dia a dia: a cada pote de restos de legumes ou pó de café que colocar, cubra com o DOBRO de matéria seca (serragem ou folhas secas). A matéria seca evita qualquer cheiro ruim.",
+        "Quando o Balde 1 encher, troque de posição com o Balde 2 e deixe descansando por 40 a 60 dias até virar terra preta com cheiro de mata."
+      ],
+      "dicaMestre": "Nunca coloque carnes, queijos, fezes de animais carnívoros nem gordura pura na composteira para manter o processo limpo e agradável.",
+      "fonte": "Ministério do Meio Ambiente e Cartilha de Compostagem Comunitária (exemplo, verificar antes de publicar)"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Lora', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'Space Mono', monospace;
+    --app-bg: #F8F5EE;
+    --app-text: #242A24;
+    --card-bg: #FFFFFF;
+    --card-border: #E5DECE;
+  }
+
+  /* Tema Escuro Solarpunk (Mata Noturna e Âmbar) */
+  html.dark {
+    --app-bg: #111812;
+    --app-text: #EAE5D9;
+    --card-bg: #18231A;
+    --card-border: #2C3C2E;
+  }
+
+  /* Níveis de tamanho da fonte acessíveis */
+  html.font-size-normal {
+    font-size: 16px;
+  }
+
+  html.font-size-confortavel {
+    font-size: 18px;
+  }
+
+  html.font-size-grande {
+    font-size: 20px;
+  }
+
+  /* Modo Leitura: foco em prosa, sem animações bruscas */
+  html.modo-leitura {
+    line-height: 1.95;
+  }
+
+  html.modo-leitura * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--app-bg);
+    color: var(--app-text);
+    min-height: 100vh;
+  }
+
+  /* Foco visível acessível em navegação por teclado */
+  :focus-visible {
+    outline: 2px solid #2E5E37;
+    outline-offset: 2px;
+  }
+
+  html.dark :focus-visible {
+    outline: 2px solid #D4A373;
+    outline-offset: 2px;
+  }
+
+  /* Cascata suave de contraste e legibilidade no tema escuro */
+  html.dark article {
+    background-color: #172219 !important;
+    border-color: #2A3C2D !important;
+    color: #E8E3D7 !important;
+  }
+
+  html.dark article h1,
+  html.dark article h2,
+  html.dark article h3,
+  html.dark article h4 {
+    color: #F2ECE0 !important;
+  }
+
+  html.dark blockquote {
+    color: #EFE9DC !important;
+  }
+
+  html.dark input,
+  html.dark textarea,
+  html.dark select {
+    background-color: #1A281D !important;
+    border-color: #2E4030 !important;
+    color: #EFE9DC !important;
+  }
+
+  html.dark .bg-\[\#FFFFFF\] {
+    background-color: #172219 !important;
+  }
+
+  html.dark .bg-\[\#FAF7F0\],
+  html.dark .bg-\[\#FCFAF5\],
+  html.dark .bg-\[\#FAF6EE\],
+  html.dark .bg-\[\#FAF8F2\],
+  html.dark .bg-\[\#F8F5EE\] {
+    background-color: #1C2A1E !important;
+  }
+
+  html.dark .border-\[\#E5DECE\],
+  html.dark .border-\[\#E2D9C8\],
+  html.dark .border-\[\#E4DAC7\],
+  html.dark .border-\[\#EDE5D6\] {
+    border-color: #2D3E2F !important;
+  }
+
+  html.dark .text-\[\#1E3022\],
+  html.dark .text-\[\#231D16\],
+  html.dark .text-\[\#1E2D20\],
+  html.dark .text-\[\#2E251B\],
+  html.dark .text-\[\#202921\] {
+    color: #F0EBE0 !important;
+  }
+
+  html.dark .text-\[\#475747\],
+  html.dark .text-\[\#5B6857\],
+  html.dark .text-\[\#61705D\],
+  html.dark .text-\[\#5C4F40\],
+  html.dark .text-\[\#4E4133\] {
+    color: #A6B8A3 !important;
+  }
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Áreas de toque confortáveis (mínimo 44x44px) */
+.touch-target {
+  min-width: 44px;
+  min-height: 44px;
+}

@@ -1,0 +1,276 @@
+{
+  "secaoInfo": {
+    "titulo": "Clima e território",
+    "subtitulo": "Calendário vivo de adaptação e convivência com as estações e os ciclos da terra.",
+    "lema": "Não se luta contra o clima: aprende-se a habitar a terra com inteligência, solo vivo e cuidado comunitário."
+  },
+  "regioes": [
+    {
+      "id": "litoral",
+      "nome": "Litoral e Costa Atlântica",
+      "bioma": "Mata Atlântica e Restinga",
+      "icone": "🌊",
+      "descricaoCurta": "Brisa marítima constante, umidade salina, marés vivas e chuvas tropicais rápidas.",
+      "estacoes": [
+        {
+          "estacaoId": "seca",
+          "tituloEstacao": "Estiagem e Ventos Costeiros",
+          "icone": "🍂",
+          "oQueEsperar": "Dias de céu anil límpido, ventos alísios mais fortes que aceleram a evaporação e noites agradáveis com ar seco.",
+          "oQuePlantarOuCuidar": [
+            "Cubra os canteiros com palhada ou folhas secas de coqueiro para reter a umidade na terra.",
+            "Boa época para podas leves de árvores frutíferas costeiras (pitangueiras, cajueiros, goiabeiras).",
+            "Mudas de espécies de restinga e ervas aromáticas (alecrim, hortelã-da-folha-grossa) desenvolvem raízes profundas agora."
+          ],
+          "comoEconomizarAgua": [
+            "Regue apenas no comecinho da manhã (antes das 7h) ou no final da tarde para evitar perda rápida por evaporação sob o vento.",
+            "Use pratos de barro ou garrafas pet furadas como gotejadores caseiros diretamente na raiz.",
+            "Reaproveite a água de lavar verduras para molhar vasos ornamentais."
+          ],
+          "oQueFazerEmEmergencia": [
+            "Seca prolongada: priorize plantas que alimentam e conserve sombra vegetal sobre caixas d'água para manter a água fresca.",
+            "Verifique a vedação da boia da caixa d'água para evitar gotejamentos invisíveis que desperdiçam até 40 litros por dia."
+          ],
+          "oQueEstaMelhorando": "Cidades litorâneas estão recuperando manguezais e restingas como escudos naturais que amortecem a perda de água subterrânea.",
+          "fonte": "Caderno de Agroecologia Costeira da Embrapa e Inmet (exemplo, verificar antes de publicar)",
+          "gestoPratico": {
+            "titulo": "Cobertura morta no vaso",
+            "acao": "Coloque uma camada de 3 dedos de folhas secas caídas sobre a terra de todos os seus vasos de casa. Isso reduz pela metade a necessidade de rega.",
+            "tempo": "10 minutos"
+          }
+        },
+        {
+          "estacaoId": "chuva",
+          "tituloEstacao": "Águas Tropicais e Ressacas",
+          "icone": "🌧️",
+          "oQueEsperar": "Chuva intensa de outono/inverno, trovoadas de fim de tarde e marés altas de sizígia que podem elevar rios e canais.",
+          "oQuePlantarOuCuidar": [
+            "Excelente período para plantio de bananeiras, taioba, aipim e mudas de árvores nativas da Mata Atlântica.",
+            "Atenção para drenagem: garanta que vasos e canteiros tenham furos desobstruídos para não encharcar raízes de hortaliças.",
+            "Limpe calhas e ralos de folhas antes das primeiras trombas d'água."
+          ],
+          "comoEconomizarAgua": [
+            "Aproveite para colher água de chuva em baldes ou tonéis com tela mosqueteira para lavar calçadas e regar plantas nos dias secos.",
+            "Feche o registro geral durante reparos de calhas para evitar desperdício de bombeamento elétrico."
+          ],
+          "oQueFazerEmEmergencia": [
+            "Risco de alagamento: guarde documentos importantes em sacos plásticos herméticos no alto.",
+            "Nunca atravesse ruas com água acima do tornozelo devido a bueiros destampados e correnteza oculta.",
+            "Desconecte aparelhos elétricos da tomada se a água subir próximo ao piso."
+          ],
+          "oQueEstaMelhorando": "Instalação de 'jardins de chuva' e calçadas drenantes em cidades costeiras que absorvem a água e reduzem enxurradas.",
+          "fonte": "Defesa Civil Nacional e Centro Nacional de Monitoramento de Desastres (Cemaden) (exemplo, verificar antes de publicar)",
+          "gestoPratico": {
+            "titulo": "Inspeção de ralos e mosquiteiro",
+            "acao": "Verifique os ralos do quintal e coloque tela fina sobre qualquer recipiente que receba água de chuva para evitar proliferação do Aedes aegypti.",
+            "tempo": "15 minutos"
+          }
+        },
+        {
+          "estacaoId": "calor_extremo",
+          "tituloEstacao": "Verão Quente e Mormaço",
+          "icone": "☀️",
+          "oQueEsperar": "Índice UV muito elevado, umidade alta com sensação térmica acima dos 38°C e asfalto fervendo.",
+          "oQuePlantarOuCuidar": [
+            "Proteja hortaliças delicadas (alface, rúcula) com sombrite 50% ou sob a copa de arbustos maiores.",
+            "Plantas que toleram pleno sol costeiro: quiabo, batata-doce, feijão-de-corda e boldo.",
+            "Coloque recipientes rasos com água limpa na sombra para pássaros e abelhas nativas beberem."
+          ],
+          "comoEconomizarAgua": [
+            "Evite banhos longos e lave roupas em lotes cheios da máquina de lavar.",
+            "Cubra piscinas infláveis e tanques quando não estiverem em uso para evitar que o sol evapore a água."
+          ],
+          "oQueFazerEmEmergencia": [
+            "Beba água mesmo antes de sentir sede (pelo menos 2,5 litros por dia para adultos).",
+            "Molhe toalhas e coloque na nuca ou nos pulsos de idosos e crianças nos horários de pico (11h às 15h).",
+            "Crie corrente de ar cruzada abrindo janelas em lados opostos da casa e mantendo cortinas claras fechadas no lado do sol."
+          ],
+          "oQueEstaMelhorando": "Projetos de arborização urbana em orlas aumentam o sombreamento e reduzem as ilhas de calor em até 4°C nas calçadas.",
+          "fonte": "Manual de Saúde Ambiental e Clima da Fiocruz (exemplo, verificar antes de publicar)",
+          "gestoPratico": {
+            "titulo": "Ponto de água fresca para a vizinhança",
+            "acao": "Coloque um bebedouro ou pote de barro com água fresca e limpa na calçada para carteiros, garis e animais de rua.",
+            "tempo": "5 minutos"
+          }
+        }
+      ]
+    },
+    {
+      "id": "semiarido",
+      "nome": "Semiárido e Sertão Vivo",
+      "bioma": "Caatinga",
+      "icone": "🌵",
+      "descricaoCurta": "Luz solar farta, solo fértil que floresce ao toque da primeira gota e rica sabedoria de convivência com a seca.",
+      "estacoes": [
+        {
+          "estacaoId": "seca",
+          "tituloEstacao": "Tempo de Estiagem e Brilho",
+          "icone": "☀️",
+          "oQueEsperar": "A Caatinga perde as folhas para proteger a água de seus troncos (fica cinza e viva), dias quentes e noites frescas.",
+          "oQuePlantarOuCuidar": [
+            "Cultivo de palma forrageira, mandacaru sem espinho e moringa para alimentar pequenos animais.",
+            "Proteção de canteiros com esterco curtido e pó de serra para reter qualquer gota do sereno noturno.",
+            "Armazenamento de sementes crioulas da paixão em garrafas PET secas e bem tampadas para o próximo inverno."
+          ],
+          "comoEconomizarAgua": [
+            "O uso da cisterna de placa de 16 mil litros deve ser rigorosamente planejado: água para beber e cozinhar primeiro.",
+            "Água de reuso (água cinza da pia e banho) tratada em biofiltros de areia e carvão para irrigar fruteiras.",
+            "Irrigação por gotejamento de cerâmica enterrada perto da raiz."
+          ],
+          "oQueFazerEmEmergencia": [
+            "Seca severa: acione a associação comunitária para abastecimento programado de carro-pipa solidário.",
+            "Mantenha a tampa da cisterna sempre trancada com cadeado e calha limpa para evitar poeira e animais."
+          ],
+          "oQueEstaMelhorando": "O programa de mais de 1 milhão de cisternas no semiárido brasileiro transformou a região na mais resiliente do mundo semiárido.",
+          "fonte": "Articulação Semiárido Brasileiro (ASA) e Embrapa Semiárido (exemplo, verificar antes de publicar)",
+          "gestoPratico": {
+            "titulo": "Cuidado com o gotejador de barro",
+            "acao": "Enterre um pequeno vaso de barro cru sem esmalte com tampa ao lado de uma planta e encha de água: ele libera umidade aos poucos por capilaridade.",
+            "tempo": "15 minutos"
+          }
+        },
+        {
+          "estacaoId": "chuva",
+          "tituloEstacao": "Tempo das Águas no Sertão",
+          "icone": "🌱",
+          "oQueEsperar": "Milagre do verde: em apenas 48 horas após a primeira chuva boa, a Caatinga inteira renasce num verde viçoso e perfumado.",
+          "oQuePlantarOuCuidar": [
+            "Semeadura imediata do milho crioulo, feijão-fradinho, abóbora e melancia de sequeiro nas primeiras chuvas.",
+            "Limpeza prévia do telhado e das calhas antes de direcionar a água para as cisternas familiares.",
+            "Plantio de árvores nativas de valor ecológico e medicinal: umbuzeiro, aroeira e juazeiro."
+          ],
+          "comoEconomizarAgua": [
+            "Deixe as primeiras águas de chuva escorrerem para limpar a poeira do telhado (descarte inicial) antes de encher o reservatório.",
+            "Abasteça tanques de pedra, barragens de base e bacias de contenção para os meses seguintes."
+          ],
+          "oQueFazerEmEmergencia": [
+            "Enxurradas rápidas: evite atravessar riachos temporários e passagens molhadas que enchem subitamente.",
+            "Proteja as sementes estocadas da umidade excessiva mantendo os recipientes elevados do chão."
+          ],
+          "oQueEstaMelhorando": "Barragens subterrâneas retêm a água no subsolo por meses após as chuvas, permitindo hortas verdes o ano todo.",
+          "fonte": "Rede de Agricultores Agroecológicos do Semiárido (exemplo, verificar antes de publicar)",
+          "gestoPratico": {
+            "titulo": "Limpeza da calha do telhado",
+            "acao": "Passe uma vassoura de palha nas calhas para tirar folhas e poeira antes da próxima chuva encher seu reservatório.",
+            "tempo": "20 minutos"
+          }
+        },
+        {
+          "estacaoId": "calor_extremo",
+          "tituloEstacao": "Canícula e Sol a Pino",
+          "icone": "🔥",
+          "oQueEsperar": "Ar extremamente seco com umidade relativa abaixo de 20%, sol forte desde cedo e radiação intensa.",
+          "oQuePlantarOuCuidar": [
+            "Cuidado intensivo com mudas jovens: crie esteiras de palha ou folhas de palmeira como cobertura protetora.",
+            "Mantenha solo coberto e nunca deixe a terra nua sob o sol direto para não cozinhar as bactérias benéficas da terra.",
+            "Cultive plantas de alta resistência térmica como cactos comestíveis e gergelim."
+          ],
+          "comoEconomizarAgua": [
+            "Regas estritamente noturnas (após as 19h) para que a terra absorva sem evaporar no ar quente.",
+            "Use mulch grosso de folhas de faveleira ou sabugo triturado ao redor dos troncos."
+          ],
+          "oQueFazerEmEmergencia": [
+            "Umidifique o quarto à noite com bacias de água fresca e toalhas molhadas estendidas.",
+            "Evite esforço físico pesado na roça entre as 10h e as 15h30.",
+            "Hidratação com água com uma pitada de sal e algumas gotas de limão ou rapadura para repor eletrólitos."
+          ],
+          "oQueEstaMelhorando": "Técnicas de agrofloresta adaptada à Caatinga (sintropia do sertão) criam microclimas amenos sob o calor extremo.",
+          "fonte": "Centro de Convivência com o Semiárido (exemplo, verificar antes de publicar)",
+          "gestoPratico": {
+            "titulo": "Bacia de sereno no quarto",
+            "acao": "Coloque uma bacia com água perto da cama à noite para aliviar a garganta e as vias aéreas do ar seco.",
+            "tempo": "2 minutos"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cerrado",
+      "nome": "Cerrado e Planalto Central",
+      "bioma": "Cerrado (A Caixa d'Água do Brasil)",
+      "icone": "🌳",
+      "descricaoCruta": "Berço das maiores bacias hidrográficas, árvores de raízes fundas, cascas grossas e marcante alternância seca/chuva.",
+      "estacoes": [
+        {
+          "estacaoId": "seca",
+          "tituloEstacao": "Seca do Planalto e Céu de Brigadeiro",
+          "icone": "🌾",
+          "oQueEsperar": "Céu azul impecável, tardes com umidade do ar abaixo de 15% (semelhante ao deserto do Saara) e risco de queimadas.",
+          "oQuePlantarOuCuidar": [
+            "Época de colheita e cuidados com plantas nativas de raízes profundas (baru, pequi, jatobá).",
+            "Mantenha aceiros limpos ao redor do terreno para evitar que fogos espontâneos de beira de estrada alcancem canteiros.",
+            "Horta exige cobertura densa de matéria orgânica e telas sombreadoras."
+          ],
+          "comoEconomizarAgua": [
+            "Reaproveitamento obrigatório da água da máquina de lavar para descargas e calçadas.",
+            "Mantenha torneiras bem fechadas e use regadores de bico fino em vez de mangueiras abertas."
+          ],
+          "oQueFazerEmEmergencia": [
+            "Baixíssima umidade: pingue soro fisiológico no nariz várias vezes ao dia e beba líquidos a cada 40 minutos.",
+            "Avistando fumaça de queimada: feche janelas voltadas para o vento e ligue imediatamente para o Corpo de Bombeiros (193).",
+            "Nunca queime lixo ou folhas secas neste período sob nenhuma circunstância."
+          ],
+          "oQueEstaMelhorando": "Brigadas comunitárias voluntárias de prevenção e manejo integrado do fogo protegem nascentes e matas de galeria.",
+          "fonte": "Rede Cerrado e Instituto Sociedade, População e Natureza (ISPN) (exemplo, verificar antes de publicar)",
+          "gestoPratico": {
+            "titulo": "Soro nasal caseiro de hidratação",
+            "acao": "Tenha sempre um frasco com soro fisiológico por perto para manter as narinas umedecidas nos dias de estiagem do Planalto.",
+            "tempo": "1 minuto"
+          }
+        },
+        {
+          "estacaoId": "chuva",
+          "tituloEstacao": "Tempo das Águas e Florada",
+          "icone": "🌧️",
+          "oQueEsperar": "Chuvas torrenciais de verão, terra vermelha viva, recuperação dos lençóis freáticos e floradas espontâneas do cerrado.",
+          "oQuePlantarOuCuidar": [
+            "Época ideal para o plantio de árvores nativas do Cerrado (ipês, cagaita, jenipapo) e recuperação de nascentes.",
+            "Canteiros de hortaliças precisam de leiras elevadas para não ficarem alagados com a chuva pesada.",
+            "Excelente período para multiplicação de adubos verdes (mucuna, feijão-de-porco) que enriquecem o solo."
+          ],
+          "comoEconomizarAgua": [
+            "Construa pequenas bacias de infiltração (barraginhas) no terreno para alimentar os aquíferos profundos em vez de deixar a água escorrer e erodir o solo.",
+            "Aproveite a água de telhado para abastecer cisternas de irrigação de quintal."
+          ],
+          "oQueFazerEmEmergencia": [
+            "Tempestades com raios: abrigue-se em local fechado e evite ficar debaixo de árvores isoladas em áreas abertas.",
+            "Cuidado com erosão e voçorocas: plante capim-vetiver ou coloque troncos transversais para quebrar a força da enxurrada."
+          ],
+          "oQueEstaMelhorando": "Técnicas de plantio direto e barraginhas de retenção estão recarregando nascentes históricas que estavam secando no Centro-Oeste.",
+          "fonte": "Embrapa Cerrados e Programa Produtor de Água da ANA (exemplo, verificar antes de publicar)",
+          "gestoPratico": {
+            "titulo": "Cavar uma pequena vala de infiltração",
+            "acao": "Faça uma pequena depressão suave na terra do quintal para que a água da chuva pare e penetre no solo em vez de escorrer para a rua.",
+            "tempo": "20 minutos"
+          }
+        },
+        {
+          "estacaoId": "calor_extremo",
+          "tituloEstacao": "Veranico e Ondas de Calor",
+          "icone": "☀️",
+          "oQueEsperar": "Pausas de até 15 dias sem chuva em pleno verão ('veranico') combinadas com radiação solar máxima e solo vermelho estalando.",
+          "oQuePlantarOuCuidar": [
+            "Use podas de capim para reforçar a cobertura morta e sombreie mudas jovens com esteiras de bambu.",
+            "Cuidado com pragas oportunistas (ácaros e tripes) que se proliferam no calor seco: use calda de fumo ou óleo de neem natural.",
+            "Regas profundas e espaçadas são melhores do que regas rápidas e superficiais que evaporam antes de chegar à raiz."
+          ],
+          "comoEconomizarAgua": [
+            "Aplique água diretamente na terra sob a cobertura de folhas, nunca por aspersão aérea em horários de sol a pino.",
+            "Recicle a água de cozimento de legumes (fria e sem sal) para adubar e molhar plantas."
+          ],
+          "oQueFazerEmEmergencia": [
+            "Proteja animais domésticos: nunca passeie com cães no asfalto quente entre 10h e 16h para não queimar as patinhas.",
+            "Mantenha persianas e cortinas fechadas nos cômodos ensolarados durante o dia para segurar o calor fora de casa."
+          ],
+          "oQueEstaMelhorando": "Adoção de sistemas agroflorestais regenerativos no Cerrado mantém a temperatura do solo até 8°C mais fresca do que em monoculturas.",
+          "fonte": "Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio) (exemplo, verificar antes de publicar)",
+          "gestoPratico": {
+            "titulo": "Teste do asfalto com as costas da mão",
+            "acao": "Antes de sair com seu bicho de estimação, coloque as costas da mão no asfalto por 7 segundos. Se estiver quente demais para sua mão, está quente demais para as patinhas dele.",
+            "tempo": "1 minuto"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "secaoInfo": {
+    "titulo": "Atenção e corpo",
+    "subtitulo": "Pausas orgânicas, descanso da visão e descanso profundo sem pressa nem metas.",
+    "lema": "O corpo não é uma máquina a ser otimizada: é a sua casa na Terra."
+  },
+  "pausasGuiadas": [
+    {
+      "id": "respiracao-serena",
+      "titulo": "A Respiração da Calmaria",
+      "duracao": "2 a 3 minutos",
+      "tipo": "Respiração",
+      "icone": "🌬️",
+      "descricao": "Uma respiração simples com expiração mais longa para acalmar o sistema nervoso simpático e desacelerar os batimentos.",
+      "passos": [
+        "Apoie os dois pés firmes no chão e solte os ombros para longe das orelhas.",
+        "Inspire pelo nariz com suavidade contando mentalmente até 4.",
+        "Retenha o ar nos pulmões por 2 segundos, sem tensionar o peito.",
+        "Solte todo o ar pela boca entreaberta devagar, contando até 6 como se soprasse uma vela sem apagá-la.",
+        "Repita esse ciclo de quatro a cinco vezes no seu próprio ritmo, sentindo a mandíbula relaxar."
+      ],
+      "sensacaoEsperada": "Leveza nos ombros e desaceleração do turbilhão de pensamentos.",
+      "fonte": "Sociedade Brasileira de Fisiologia e Respiração Consciente (exemplo, verificar antes de publicar)"
+    },
+    {
+      "id": "alongamento-mesa",
+      "titulo": "Alongamento Suave de Pescoço e Mãos",
+      "duracao": "2 minutos",
+      "tipo": "Alongamento",
+      "icone": "🌿",
+      "descricao": "Alívio da tensão acumulada pelo uso prolongado de celulares e teclados de computador.",
+      "passos": [
+        "Incline a cabeça suavemente em direção ao ombro direito sem levantar o ombro. Sinta a lateral esquerda do pescoço alongar por 5 respirações calmas.",
+        "Repita a inclinação para o lado esquerdo com a mesma serenidade.",
+        "Gire os ombros em círculos amplos para trás três vezes, depois para a frente três vezes.",
+        "Estique os braços para a frente, entrelace os dedos e empurre as palmas das mãos para fora, soltando os punhos e os dedos."
+      ],
+      "sensacaoEsperada": "Descompressão da nuca e retorno da circulação sanguínea aos dedos.",
+      "fonte": "Cartilha de Ergonomia e Movimento no Trabalho da Fundacentro (exemplo, verificar antes de publicar)"
+    },
+    {
+      "id": "olhar-horizonte",
+      "titulo": "Olhar para Longe (O Descanso do Horizonte)",
+      "duracao": "1 a 2 minutos",
+      "tipo": "Visão",
+      "icone": "👁️",
+      "descricao": "Os músculos dos olhos ficam contraídos ao focar telas próximas por horas. Olhar para a distância desliga o foco forçado.",
+      "passos": [
+        "Desvie os olhos da tela e encontre o ponto mais distante visível pela janela ou corredor (uma árvore, o topo de um prédio, uma nuvem).",
+        "Mantenha o olhar repousado nesse ponto distante por cerca de 20 a 30 segundos, sem semicerrar os olhos.",
+        "Pisque devagar dez vezes completas para lubrificar naturalmente a superfície dos olhos.",
+        "Esfregue as palmas das mãos até aquecê-las e apoie em concha suave sobre os olhos fechados por 15 segundos, aproveitando a escuridão quente."
+      ],
+      "sensacaoEsperada": "Alívio do ardor nos olhos e clareza visual renovada.",
+      "fonte": "Conselho Brasileiro de Oftalmologia (CBO) (exemplo, verificar antes de publicar)"
+    }
+  ],
+  "dicasDeSono": [
+    {
+      "id": "ritual-penumbra",
+      "titulo": "O Ritual da Penumbra",
+      "icone": "🕯️",
+      "pratica": "Uma hora antes de deitar, desligue lâmpadas brancas fortes do teto e use abajures com luz amarela ou velas seguras. Isso sinaliza ao cérebro para produzir melatonina naturalmente.",
+      "beneficio": "Indução mais rápida do sono profundo."
+    },
+    {
+      "id": "quarto-fresco",
+      "titulo": "Ambiente Arejado e Fresco",
+      "icone": "🌙",
+      "pratica": "O corpo humano precisa diminuir sua temperatura interna em cerca de 1°C para iniciar o sono. Abra uma fresta da janela para renovar o ar ou use ventilador indireto.",
+      "beneficio": "Menos despertares noturnos no meio da madrugada."
+    },
+    {
+      "id": "caderno-preocupacoes",
+      "titulo": "O Caderno das Pendências",
+      "icone": "📓",
+      "pratica": "Se a cabeça ficar cheia de afazeres na cama, anote três itens principais em um papel ao lado da cama. Tirar as pendências da mente e deixá-las no papel alivia a vigília.",
+      "beneficio": "Redução da ruminação mental pré-sono."
+    }
+  ],
+  "sabadoSemTela": {
+    "titulo": "O Convite ao Sábado sem Tela (Dia Analógico)",
+    "icone": "🪁",
+    "proposta": "Um convite livre e acolhedor para experimentar 24 horas (ou mesmo uma manhã inteira) sem abrir redes sociais, notícias ou aplicativos de mensagens.",
+    "semCulpa": "Não é um teste de força de vontade, nem uma punição: é um presente de tempo desimpedido para estar no mundo tangível com quem você ama.",
+    "ideiasParaOPrimeiroDia": [
+      "Ler um livro físico na praça ou na varanda ouvindo o som dos pássaros.",
+      "Cozinhar uma receita com calma, cortando legumes e sentindo os aromas sem fotografar.",
+      "Consertar algo com as mãos, mexer na terra das plantas ou passear sem destino fixo.",
+      "Jogar dominó, baralho ou conversar cara a cara em torno da mesa do café da tarde."
+    ],
+    "comoComecar": "Avise os mais próximos na sexta-feira: 'Amanhã estarei desconectado até domingo de manhã. Se for algo urgente, me dê uma ligação de voz normal no celular.'",
+    "fonte": "Caderno de Saúde Mental e Desconexão Consciente (exemplo, verificar antes de publicar)"
+  }
+}
